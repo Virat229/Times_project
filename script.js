@@ -19,8 +19,6 @@ const loader = document.querySelector('.hourglass');
 loader.style.display = "none";
 search.focus();
 nav.style.display = 'none';
-const location = await geolocator.GetGeopositionAsync();
-console.log(location);
 let pageNumber = 0;
 const key = "XXvKI1OVDzoAojy31mEXel8z5N7rXj4e";
 searchForm.addEventListener("submit",submitSearch);   
